@@ -21,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='/sign-up' element={ <SignUp/> } />
       <Route path='/articles' element={ <Articles/> } />
       <Route path='/categories' element={ <Categories/> } />
+      <Route path='/profile' element={ <Profile/> } />
     </Route>
   )
 );
