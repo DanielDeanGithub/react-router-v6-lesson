@@ -21,7 +21,7 @@ export default function Header () {
       {
         currentUser.username
           ? <>
-              <a href="/profile">Profile</a>
+              <NavLink to="/profile">Profile</NavLink>
               <button onClick={handleLogout} className="logout"> Log Out </button>
             </>
           : <a href="/sign-up">Sign Up</a>
