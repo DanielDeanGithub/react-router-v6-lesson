@@ -17,7 +17,7 @@ export default function Header () {
     <div className="header">
       <NavLink to="/about">About</NavLink>
       <NavLink to="/articles">Articles</NavLink>
-      <a href="/categories">Categories</a>
+      <NavLink to="/categories">Categories</NavLink>
       {
         currentUser.username
           ? <>
