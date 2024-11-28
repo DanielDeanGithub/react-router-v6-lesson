@@ -15,7 +15,7 @@ export default function Header () {
   // Replace the 4 <a> tags with <NavLink> components
   return (
     <div className="header">
-      <a href="/about">About</a>
+      <NavLink to="/about">About</NavLink>
       <a href="/articles">Articles</a>
       <a href="/categories">Categories</a>
       {
