@@ -8,11 +8,11 @@ export default function Author () {
   const { name } = useParams();
 
   const authors = useSelector(selectAuthors)
-  const author = authors["replace me"]
+  const author = authors[name]
 
   return (
     <main>
-      <h1>Articles by REPLACE ME</h1>
+      <h1>Articles by {name}</h1>
       <ul>
         {author && author.articles ? author.articles.map(slug => (
           <li key={slug}>
