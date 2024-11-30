@@ -13,7 +13,7 @@ export default function Profile () {
     <main>
       <h1>{currentUser.username}</h1>
       <Link to={`edit`}>Edit</Link>
-      {/* Tell React Router where to render child routes` */}
+      <Outlet/>
     </main>
   )
 }
