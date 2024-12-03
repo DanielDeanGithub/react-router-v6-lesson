@@ -2,8 +2,7 @@ import React from "react";
 import { useNavigate  } from "react-router-dom";
 
 export default function Footer() {
-
-  // get the navigate function
+  const navigate = useNavigate();
 
   const goBack = () => {
     // imperatively redirect back
