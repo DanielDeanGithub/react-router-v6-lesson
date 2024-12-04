@@ -9,9 +9,9 @@ export default function Footer() {
     navigate(-1);
   }
 
+  // imperatively redirect forward
   const goForward = () => {
-    // imperatively redirect forward
-    
+    navigate(1);
   }
 
   return (
