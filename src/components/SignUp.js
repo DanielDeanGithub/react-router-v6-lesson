@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { signUp } from "../features/session/sessionSlice"
-import { useDispatch } from "react-redux";
-// import useNavigate
+import { useDispatch, useNavigate } from "react-redux";
 
 export default function SignUp () {
   const [username, setUsername] = useState("");
