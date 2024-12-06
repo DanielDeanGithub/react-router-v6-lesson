@@ -5,8 +5,7 @@ import { useDispatch, useNavigate } from "react-redux";
 export default function SignUp () {
   const [username, setUsername] = useState("");
   const dispatch = useDispatch();
-
-   // Grab the navigate function
+  const navigate = useNavigate();
 
   const handleSubmit = e => {
     e.preventDefault();
