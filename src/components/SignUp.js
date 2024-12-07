@@ -10,7 +10,7 @@ export default function SignUp () {
   const handleSubmit = e => {
     e.preventDefault();
     dispatch(signUp({username: username}));
-    // imperatively redirect the user to /profile
+    navigate('/profile');
   }
 
   return (
